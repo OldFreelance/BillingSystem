@@ -6,10 +6,15 @@
     <h2>
         <asp:Literal runat="server" Text="<%$ Resources:WebResources, RS_USERS%>" />
     </h2>
+
+    <asp:TextBox ID="txtName" runat="server"></asp:TextBox>
+    <asp:Button ID="btnSearch" runat="server" Text="<%$ Resources:WebResources, RS_SEARCH%>" 
+        onclick="btnSearch_Click" />
+
     <asp:GridView ID="GridView1" runat="server" AllowPaging="True" 
         AllowSorting="True" AutoGenerateColumns="False" CellPadding="4" 
         DataKeyNames="Id" DataSourceID="BillingEntityDataSource" ForeColor="#333333" 
-        GridLines="None">
+        GridLines="None" Width="500px">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
             <asp:TemplateField>
@@ -28,6 +33,7 @@
             <asp:BoundField DataField="SecondName" HeaderText="<%$ Resources:WebResources, RS_LAST_NAME%>" SortExpression="SecondName" />
             <%--<asp:BoundField DataField="Tariff.Name" HeaderText="<%$ Resources:WebResources, RS_TARIFF%>" SortExpression="TariffId" />--%>
             <asp:BoundField DataField="Balance" HeaderText="<%$ Resources:WebResources, RS_BALANCE%>" SortExpression="Balance" />
+            <asp:BoundField DataField="Number" HeaderText="<%$ Resources:WebResources, RS_NUMBER%>" SortExpression="Number" />
         </Columns>
         <FooterStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />
         <HeaderStyle BackColor="#990000" Font-Bold="True" ForeColor="White" />

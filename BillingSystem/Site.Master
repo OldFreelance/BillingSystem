@@ -46,6 +46,13 @@
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="<%$ Resources:WebResources, RS_HOME%>"/>
                         <asp:MenuItem NavigateUrl="~/Message/" Text="<%$ Resources:WebResources, RS_MESSAGES%>"/>
                         <asp:MenuItem NavigateUrl="~/User/" Text="<%$ Resources:WebResources, RS_USERS%>"/>
+                        <asp:MenuItem NavigateUrl="~/Tariffs.aspx" Text="<%$ Resources:WebResources, RS_TARIFFS%>"/>
+                        <asp:MenuItem NavigateUrl="~/Connect.aspx" Text="<%$ Resources:WebResources, RS_CONNECTION%>"/>
+                        <asp:MenuItem NavigateUrl="~/News.aspx" Text="<%$ Resources:WebResources, RS_NEWS%>"/>
+                        <asp:MenuItem NavigateUrl="~/Hosting.aspx" Text="<%$ Resources:WebResources, RS_HOSTING%>"/>
+                        <asp:MenuItem NavigateUrl="~/Email.aspx" Text="<%$ Resources:WebResources, RS_EMAIL%>"/>
+                        <asp:MenuItem NavigateUrl="http://forum.e-vels.lv/" Text="<%$ Resources:WebResources, RS_FORUM %>"/>
+                        <asp:MenuItem NavigateUrl="http://auto.e-vels.lv/" Text="<%$ Resources:WebResources, RS_AUTO %>"/>
                         <asp:MenuItem NavigateUrl="~/About.aspx" Text="<%$ Resources:WebResources, RS_ABOUT%>"/>
                     </Items>
                 </asp:Menu>

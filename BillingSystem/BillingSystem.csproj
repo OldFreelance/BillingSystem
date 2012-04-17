@@ -63,11 +63,16 @@
     <Content Include="App_Data\aspnetdb_log.ldf">
       <DependentUpon>ASPNETDB.MDF</DependentUpon>
     </Content>
+    <Content Include="Connect.aspx" />
+    <Content Include="Email.aspx" />
+    <Content Include="Hosting.aspx" />
     <Content Include="Images\formpd4.png" />
     <Content Include="Images\logo.png" />
     <Content Include="Message\Default.aspx" />
     <Content Include="Message\Details.aspx" />
     <Content Include="Message\WriteTo.aspx" />
+    <Content Include="News.aspx" />
+    <Content Include="Tariffs.aspx" />
     <Content Include="User\DeleteUser.aspx" />
     <Content Include="User\EditUser.aspx" />
     <Content Include="Styles\Site.css" />
@@ -127,15 +132,15 @@
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
     </Compile>
+    <Compile Include="App_GlobalResources\WebResources.ru-RU.designer.cs">
+      <DependentUpon>WebResources.ru-RU.resx</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+    </Compile>
     <Compile Include="App_GlobalResources\WebResources.designer.cs">
       <DependentUpon>WebResources.resx</DependentUpon>
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="App_GlobalResources\WebResources.ru-RU.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>WebResources.ru-RU.resx</DependentUpon>
     </Compile>
     <Compile Include="BillingModel.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -144,12 +149,33 @@
     </Compile>
     <Compile Include="Code\BillingMembershipProvider.cs" />
     <Compile Include="Code\BillingRoleProvider.cs" />
+    <Compile Include="Connect.aspx.cs">
+      <DependentUpon>Connect.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Connect.aspx.designer.cs">
+      <DependentUpon>Connect.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Email.aspx.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Email.aspx.designer.cs">
+      <DependentUpon>Email.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hosting.aspx.cs">
+      <DependentUpon>Hosting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Hosting.aspx.designer.cs">
+      <DependentUpon>Hosting.aspx</DependentUpon>
     </Compile>
     <Compile Include="Message\Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
@@ -171,6 +197,20 @@
     </Compile>
     <Compile Include="Message\WriteTo.aspx.designer.cs">
       <DependentUpon>WriteTo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="News.aspx.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="News.aspx.designer.cs">
+      <DependentUpon>News.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Tariffs.aspx.cs">
+      <DependentUpon>Tariffs.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Tariffs.aspx.designer.cs">
+      <DependentUpon>Tariffs.aspx</DependentUpon>
     </Compile>
     <Compile Include="User\DeleteUser.aspx.cs">
       <DependentUpon>DeleteUser.aspx</DependentUpon>
@@ -223,16 +263,14 @@
     <Content Include="Site.Master" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_GlobalResources\WebResources.ru-RU.resx">
-      <Generator>GlobalResourceProxyGenerator</Generator>
-      <LastGenOutput>WebResources.ru-RU.designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </Content>
-  </ItemGroup>
-  <ItemGroup>
     <Content Include="App_GlobalResources\WebResources.resx">
       <Generator>GlobalResourceProxyGenerator</Generator>
       <LastGenOutput>WebResources.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_GlobalResources\WebResources.ru-RU.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>WebResources.ru-RU.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </Content>
     <Content Include="App_GlobalResources\WebResources.lv-LV.resx">

@@ -27,7 +27,7 @@ namespace BillingSystem.Account
                                            Text = "User logged in from Ip " + Request.UserHostAddress,
                                            UserId = user.Id
                                        });
-            user.IpAddress = Request.UserHostAddress;
+            //user.IpAddress = Request.UserHostAddress;
 
             db.SaveChanges();
         }

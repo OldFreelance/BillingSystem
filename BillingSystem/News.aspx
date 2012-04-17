@@ -1,0 +1,29 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="News.aspx.cs" Inherits="BillingSystem.News" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MainContent" runat="server">
+<div><font color="#666699" face="Times New Roman"><B>28.11.2011</B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>Увеличена скорость на тарифе "Профессиональный" </B></font><font color="#FF0000" face="Times New Roman"><B>теперь 50 мегабит</B></font><font color="#666699" face="Times New Roman"><B> вместо 25ти.</B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>Увеличена скорость на тарифе "Домашний" </B></font><font color="#FF0000" face="Times New Roman"><B>теперь 25 мегабит</B></font><font color="#666699" face="Times New Roman"><B> вместо 15ти.</B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>Увеличена скорость на тарифе "Экономный" </B></font><font color="#FF0000" face="Times New Roman"><B>теперь 10 мегабит</B></font><font color="#666699" face="Times New Roman"><B> вместо 5ти.</B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>Увеличена скорость в посёлке Мартиши </B></font><font color="#FF0000" face="Times New Roman" class="ws11"><B>теперь 30 мегабит</B></font><font color="#FF0000" face="Times New Roman"><B> </B></font><font color="#666699" face="Times New Roman"><B>вместо 25ти</B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>Увеличена скорость по адресам Latgales 240,242,242a,242c,236 </B></font><font color="#FF0000" face="Times New Roman" class="ws11"><B>теперь 30 мегабит</B></font><font color="#FF0000" face="Times New Roman"><B> </B></font><font color="#666699" face="Times New Roman"><B>вместо 25ти</B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>Увеличена скорость в посёлке Луцмуйжа </B></font><font color="#FF0000" face="Times New Roman" class="ws11"><B>теперь 30 мегабит</B></font><font color="#FF0000" face="Times New Roman"><B> </B></font><font color="#666699" face="Times New Roman"><B>вместо 25ти</B></font></div>
+<div><font color="#666699" face="Times New Roman"><B><BR></B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>20.06.2011</B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>Увеличена скорость на тарифе "Домашний" </B></font><font color="#FF0000" face="Times New Roman"><B>теперь 15 мегабит</B></font><font color="#666699" face="Times New Roman"><B> вместо 12ти.</B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>Увеличена скорость на тарифе "Экономный" </B></font><font color="#FF0000" face="Times New Roman"><B>теперь 5 мегабит</B></font><font color="#666699" face="Times New Roman"><B> вместо 3х.</B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>Увеличена скорость в посёлке Мартиши </B></font><font color="#FF0000" face="Times New Roman" class="ws11"><B>теперь 25 мегабит</B></font><font color="#FF0000" face="Times New Roman"><B> </B></font><font color="#666699" face="Times New Roman"><B>вместо 20ти</B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>Увеличена скорость по адресам Latgales 240,242,242a,242c,236 </B></font><font color="#FF0000" face="Times New Roman" class="ws11"><B>теперь 25 мегабит</B></font><font color="#FF0000" face="Times New Roman"><B> </B></font><font color="#666699" face="Times New Roman"><B>вместо 20ти</B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>Увеличена скорость в посёлке Луцмуйжа </B></font><font color="#FF0000" face="Times New Roman" class="ws11"><B>теперь 25 мегабит</B></font><font color="#FF0000" face="Times New Roman"><B> </B></font><font color="#666699" face="Times New Roman"><B>вместо 10ти</B></font></div>
+<div><font color="#666699" face="Times New Roman"><B><BR></B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>29.10.2010</B></font></div>
+<div><font color="#666699" face="Times New Roman">&nbsp; Увеличена скорость в посёлке Мартиши</font><font color="#666699" face="Times New Roman"><B> </B></font><font color="#FF0000" face="Times New Roman" class="ws11"><B>теперь 20 мегабит</B></font><font color="#FF0000" face="Times New Roman"><B> </B></font><font color="#666699" face="Times New Roman">вместо 15ти</font></div>
+<div><font color="#666699" face="Times New Roman">&nbsp; Увеличена скорость по адресам Latgales 240,242,242a,242c,236</font><font color="#666699" face="Times New Roman"><B> </B></font><font color="#FF0000" face="Times New Roman" class="ws11"><B>теперь 20 мегабит</B></font><font color="#FF0000" face="Times New Roman"><B> </B></font><font color="#666699" face="Times New Roman">вместо 10ти</font></div>
+<div><font color="#666699" face="Times New Roman"><BR></font></div>
+<div><font color="#666699" face="Times New Roman"><B>13.05.2010</B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>&nbsp; </B></font><font color="#666699" face="Times New Roman">Увеличена скорость на тарифах: "Профессиональный" "Домашний" "Экономный". С изменениями можно ознакомиться в разделе </font><font color="#666699" face="Times New Roman"><a href="tarif.html" title="" class="style2">-Тарифы-</a></font></div>
+<div><font color="#666699" face="Times New Roman"><B><BR></B></font></div>
+<div><font color="#666699" face="Times New Roman"><B>12.05.2010</B></font></div>
+<div><font color="#666699" face="Times New Roman">&nbsp; Увеличена скорость в посёлке Мартиши</font><font color="#666699" face="Times New Roman"><B> </B></font><font color="#FF0000" face="Times New Roman" class="ws11"><B>теперь 15 мегабит</B></font><font color="#FF0000" face="Times New Roman"><B> </B></font><font color="#666699" face="Times New Roman">вместо 10ти.</font></div>
+</asp:Content>

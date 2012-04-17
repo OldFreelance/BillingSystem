@@ -13,5 +13,18 @@ namespace BillingSystem
         {
 
         }
+
+        protected void btnSearch_Click(object sender, EventArgs e)
+        {
+            BillingEntityDataSource.Where = string.IsNullOrEmpty(txtName.Text)
+                                                ? string.Empty
+                                                : "it.Login LIKE '%" + txtName.Text + "%' OR " +
+                                                  "it.FirstName LIKE '%" + txtName.Text + "%' OR " +
+                                                  "it.MiddleName LIKE '%" + txtName.Text + "%' OR " +
+                                                  "it.SecondName LIKE '%" + txtName.Text + "%' OR " +
+                                                  "it.IpAddress LIKE '%" + txtName.Text + "%' OR " +
+                                                  "it.Address LIKE '%" + txtName.Text + "%' OR " +
+                                                  "it.Number LIKE '%" + txtName.Text + "%'";
+        }
     }
 }

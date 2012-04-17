@@ -50,5 +50,16 @@
        else
        {%>
             <asp:Label runat="server" Text="<%$ Resources:WebResources, RS_NOT_AUTORIZED_TEXT%>"></asp:Label>
+            <br /><br />
+            <div align=center><font face="Verdana" class="ws22">Предлагаем высокоскоростной</font></div>
+            <div align=center><font face="Verdana" class="ws22"><BR></font></div>
+            <div align=center><font face="Verdana" class="ws22">интернет в Лудзе</font></div>
+            <div align=center><font face="Verdana" class="ws22"><BR></font></div>
+            <div align=center><font face="Verdana" class="ws22">скорость до 100 мегабит</font></div>
+            <div align=center><font face="Verdana"><BR></font></div>
+            <div align=center><font face="Verdana" class="ws18">цена от 2,99 латов в месяц</font></div>
+            <div align=center><font face="Verdana" class="ws18"><BR></font></div>
+            <div align=center><font face="Verdana" class="ws18"><BR></font></div>
+            <div align=center><font face="Verdana" class="ws18">заказать подключение можно по телефону 29145562</font></div>
     <% } %>
 </asp:Content>

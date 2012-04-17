@@ -61,7 +61,7 @@ namespace Resources {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to О программе.
+        ///   Looks up a localized string similar to О нас.
         /// </summary>
         internal static string RS_ABOUT {
             get {
@@ -106,6 +106,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Авто.
+        /// </summary>
+        internal static string RS_AUTO {
+            get {
+                return ResourceManager.GetString("RS_AUTO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Баланс.
         /// </summary>
         internal static string RS_BALANCE {
@@ -120,6 +129,15 @@ namespace Resources {
         internal static string RS_CANCEL {
             get {
                 return ResourceManager.GetString("RS_CANCEL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Подключение.
+        /// </summary>
+        internal static string RS_CONNECTION {
+            get {
+                return ResourceManager.GetString("RS_CONNECTION", resourceCulture);
             }
         }
         
@@ -169,6 +187,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to e-mail.
+        /// </summary>
+        internal static string RS_EMAIL {
+            get {
+                return ResourceManager.GetString("RS_EMAIL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Имя.
         /// </summary>
         internal static string RS_FIRST_NAME {
@@ -178,11 +205,29 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Форум.
+        /// </summary>
+        internal static string RS_FORUM {
+            get {
+                return ResourceManager.GetString("RS_FORUM", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Главная.
         /// </summary>
         internal static string RS_HOME {
             get {
                 return ResourceManager.GetString("RS_HOME", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Хостинг.
+        /// </summary>
+        internal static string RS_HOSTING {
+            get {
+                return ResourceManager.GetString("RS_HOSTING", resourceCulture);
             }
         }
         
@@ -322,6 +367,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Новости.
+        /// </summary>
+        internal static string RS_NEWS {
+            get {
+                return ResourceManager.GetString("RS_NEWS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Система управления биллингом. Нажмите &quot;Войти&quot; чтобы авторизоваться..
         /// </summary>
         internal static string RS_NOT_AUTORIZED_TEXT {
@@ -367,6 +421,15 @@ namespace Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Поиск.
+        /// </summary>
+        internal static string RS_SEARCH {
+            get {
+                return ResourceManager.GetString("RS_SEARCH", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Послать.
         /// </summary>
         internal static string RS_SEND {
@@ -381,6 +444,15 @@ namespace Resources {
         internal static string RS_TARIFF {
             get {
                 return ResourceManager.GetString("RS_TARIFF", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Тарифы.
+        /// </summary>
+        internal static string RS_TARIFFS {
+            get {
+                return ResourceManager.GetString("RS_TARIFFS", resourceCulture);
             }
         }
         
