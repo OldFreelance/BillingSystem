@@ -64,6 +64,7 @@
       <DependentUpon>ASPNETDB.MDF</DependentUpon>
     </Content>
     <Content Include="Images\formpd4.png" />
+    <Content Include="Images\logo.png" />
     <Content Include="Message\Default.aspx" />
     <Content Include="Message\Details.aspx" />
     <Content Include="Message\WriteTo.aspx" />

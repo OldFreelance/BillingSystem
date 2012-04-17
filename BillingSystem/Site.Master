@@ -13,9 +13,16 @@
     <div class="page">
         <div class="header">
             <div class="title">
-                <h1>
-                    <asp:Literal runat="server" Text="<%$ Resources:WebResources, RS_APP_TITLE%>" />
-                </h1>
+                <table>
+                    <tr>
+                        <td>
+                            <asp:Image ID="Image1" runat="server" ImageUrl="Images/logo.png"/>
+                        </td>
+                        <td>
+                            <h1><asp:Literal ID="Literal1" runat="server" Text="<%$ Resources:WebResources, RS_APP_TITLE%>" /></h1>
+                        </td>
+                    </tr>
+                </table>
             </div>
             <div class="loginDisplay">
                 <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
@@ -34,7 +41,7 @@
                 </asp:DropDownList>
             </div>
             <div class="clear hideSkiplink">
-                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal" SkipLinkText="">
                     <Items>
                         <asp:MenuItem NavigateUrl="~/Default.aspx" Text="<%$ Resources:WebResources, RS_HOME%>"/>
                         <asp:MenuItem NavigateUrl="~/Message/" Text="<%$ Resources:WebResources, RS_MESSAGES%>"/>

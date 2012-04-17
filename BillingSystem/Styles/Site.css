@@ -3,12 +3,12 @@
 
 body   
 {
-    background: #b6b7bc;
+    background: #EAEAEA;
     font-size: .80em;
     font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
     margin: 0px;
     padding: 0px;
-    color: #696969;
+    color: black;
 }
 
 a:link, a:visited
@@ -45,6 +45,7 @@ h1, h2, h3, h4, h5, h6
     text-transform: none;
     font-weight: 200;
     margin-bottom: 0px;
+    margin-top: 5px;
 }
 
 h1
@@ -88,10 +89,11 @@ first child of the left and right table columns */
 
 .page
 {
-    width: 960px;
+    width: 920px;
     background-color: #fff;
     margin: 20px auto 0px auto;
-    border: 1px solid #496077;
+    /*border: 1px solid #496077;*/
+    background-color: #EAEAEA;
 }
 
 .header
@@ -99,7 +101,7 @@ first child of the left and right table columns */
     position: relative;
     margin: 0px;
     padding: 0px;
-    background: #4b6c9e;
+    background: #EAEAEA;
     width: 100%;
 }
 
@@ -108,7 +110,7 @@ first child of the left and right table columns */
     font-weight: 700;
     margin: 0px;
     padding: 0px 0px 0px 20px;
-    color: #f9f9f9;
+    color: #990000;
     border: none;
     line-height: 2em;
     font-size: 2em;
@@ -116,9 +118,11 @@ first child of the left and right table columns */
 
 .main
 {
-    padding: 0px 12px;
-    margin: 12px 8px 8px 8px;
+    padding: 8px;
+    /*margin: 12px 8px 8px 8px;*/
     min-height: 420px;
+    border-radius: 7px;
+    background-color: white;
 }
 
 .leftCol
@@ -144,7 +148,9 @@ first child of the left and right table columns */
 
 div.hideSkiplink
 {
-    background-color:#3a4f63;
+    background-color:white;
+    border-radius: 7px;
+    margin-bottom: 10px;
     width:100%;
 }
 
@@ -163,9 +169,11 @@ div.menu ul
 
 div.menu ul li a, div.menu ul li a:visited
 {
-    background-color: #465c71;
-    border: 1px #4e667d solid;
-    color: #dde4ec;
+    background-color: darkgray;
+    /*border: 1px #4e667d solid;*/
+    margin: 0px 2px;
+    border-radius: 7px;
+    color: white;
     display: block;
     line-height: 1.35em;
     padding: 4px 20px;
@@ -175,15 +183,15 @@ div.menu ul li a, div.menu ul li a:visited
 
 div.menu ul li a:hover
 {
-    background-color: #bfcbd6;
-    color: #465c71;
+    background-color: #990000;
+    color: white;
     text-decoration: none;
 }
 
 div.menu ul li a:active
 {
     background-color: #465c71;
-    color: #cfdbe6;
+    color: white;
     text-decoration: none;
 }
 
@@ -258,17 +266,17 @@ div.accountInfo
     display: block;
     text-align: right;
     padding: 10px;
-    color: White;
+    color: black;
 }
 
 .loginDisplay a:link
 {
-    color: white;
+    color: black;
 }
 
 .loginDisplay a:visited
 {
-    color: white;
+    color: black;
 }
 
 .loginDisplay a:hover
