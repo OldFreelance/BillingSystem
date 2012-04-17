@@ -16,15 +16,17 @@ namespace BillingSystem
 
         protected void btnSearch_Click(object sender, EventArgs e)
         {
-            BillingEntityDataSource.Where = string.IsNullOrEmpty(txtName.Text)
+            string search = txtName.Text.Replace(";", string.Empty).Replace(",", string.Empty).Replace("(", string.Empty).Replace(")", string.Empty);
+
+            BillingEntityDataSource.Where = string.IsNullOrEmpty(search)
                                                 ? string.Empty
-                                                : "it.Login LIKE '%" + txtName.Text + "%' OR " +
-                                                  "it.FirstName LIKE '%" + txtName.Text + "%' OR " +
-                                                  "it.MiddleName LIKE '%" + txtName.Text + "%' OR " +
-                                                  "it.SecondName LIKE '%" + txtName.Text + "%' OR " +
-                                                  "it.IpAddress LIKE '%" + txtName.Text + "%' OR " +
-                                                  "it.Address LIKE '%" + txtName.Text + "%' OR " +
-                                                  "it.Number LIKE '%" + txtName.Text + "%'";
+                                                : "it.Login LIKE '%" + search + "%' OR " +
+                                                  "it.FirstName LIKE '%" + search + "%' OR " +
+                                                  "it.MiddleName LIKE '%" + search + "%' OR " +
+                                                  "it.SecondName LIKE '%" + search + "%' OR " +
+                                                  "it.IpAddress LIKE '%" + search + "%' OR " +
+                                                  "it.Address LIKE '%" + search + "%' OR " +
+                                                  "it.Number LIKE '%" + search + "%'";
         }
     }
 }
